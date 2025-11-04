@@ -1,9 +1,0 @@
-version: 1.0.0
-endpoints:
-  - name: "api_endpoint"    # Puedes poner el nombre que quieras
-    # 1. El puerto en el que corre Gunicorn
-    port: 8000              
-    type: REST
-    # 2. La ruta base de tu API (de urls.py)
-    context: /api           
-    networkVisibility: Public

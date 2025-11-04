@@ -19,7 +19,7 @@ if DEBUG:
 else:
     ALLOWED_HOSTS = [
         "tudominio-backend.shoreo.app", 
-        "tudominio-frontend.shoreo.app"
+        "https://8516901d-4d07-4b4d-8367-6d83367c0a7c.e1-us-east-azure.choreoapps.dev"
     ]
 
 REST_FRAMEWORK = {

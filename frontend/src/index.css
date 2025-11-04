@@ -1,0 +1,33 @@
+/* Define tus colores principales */
+:root {
+  --naranja-principal: #FF6600; /* Un tono de naranja vibrante */
+  --naranja-secundario: #E65C00;
+  --fondo-blanco: #FFFFFF;
+  --texto-oscuro: #333;
+  --borde-claro: #f0f0f0;
+}
+
+/* Reseteo básico y fondo blanco */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--fondo-blanco);
+  color: var(--texto-oscuro);
+}
+
+/* Asegura que la app ocupe toda la altura */
+#root, .App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo de los enlaces para que usen el naranja */
+a {
+  color: var(--naranja-principal);
+}
+a:hover {
+  color: var(--naranja-secundario);
+}

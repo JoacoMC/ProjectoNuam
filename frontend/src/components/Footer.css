@@ -1,0 +1,10 @@
+.footer-container {
+    width: 100%;
+    padding: 1.5rem 0;
+    background-color: #333; /* Un fondo oscuro para el footer */
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: auto; /* Empuja el footer al fondo de la página */
+    box-sizing: border-box;
+}

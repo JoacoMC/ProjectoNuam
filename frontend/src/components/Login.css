@@ -1,0 +1,102 @@
+/* src/components/Login.css */
+
+/* Contenedor principal para centrar todo */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura */
+  background-color: #f8f9fa; /* Un fondo gris muy claro */
+}
+
+/* La tarjeta o formulario */
+.login-form-wrapper {
+  background-color: var(--fondo-blanco, #FFFFFF);
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid var(--naranja-principal, #FF6600); /* Detalle naranja */
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.login-form-wrapper h2 {
+  text-align: center;
+  color: var(--texto-oscuro, #333);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para los campos (label + input) */
+.login-input-group {
+  margin-bottom: 1rem;
+}
+
+.login-input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.login-input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Asegura que el padding no desborde */
+}
+
+.login-input-group input:focus {
+  outline: none;
+  border-color: var(--naranja-principal, #FF6600);
+  box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.2);
+}
+
+/* Mensaje de error */
+.login-error {
+  color: #dc3545;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Botón de Login (Naranja) */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--fondo-blanco, #FFFFFF);
+  background-color: var(--naranja-principal, #FF6600);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: var(--naranja-secundario, #E65C00);
+}
+
+/* Sección de Registro (Nueva) */
+.login-register-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-register-link a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--naranja-principal, #FF6600);
+}
+
+.login-register-link a:hover {
+  text-decoration: underline;
+}

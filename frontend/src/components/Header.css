@@ -1,0 +1,56 @@
+/* src/components/Header.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* Usamos un borde claro sobre el fondo blanco */
+    background-color: var(--fondo-blanco);
+    border-bottom: 2px solid var(--borde-claro);
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* El logo "Nuam" ahora usa el color naranja */
+.header-logo a {
+    text-decoration: none;
+    color: var(--naranja-principal); 
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: var(--texto-oscuro); /* Enlaces normales en color oscuro */
+    font-size: 1rem;
+    font-weight: 500;
+}
+.header-nav a:hover {
+    color: var(--naranja-principal); /* Hover en naranja */
+}
+
+/* Botón de Cerrar Sesión con detalle naranja */
+.header-logout-btn {
+    background: none;
+    border: none;
+    color: var(--naranja-principal);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+.header-logout-btn:hover {
+    color: var(--naranja-secundario);
+    text-decoration: underline;
+}
